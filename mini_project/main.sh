@@ -12,8 +12,7 @@ echo "3 - View Employee            ="
 echo "4 - Remove an Employee       ="
 echo "5 - Update Employee details  ="
 echo "6 - Count of employees       ="
-echo "7 - Frequently asked Queries ="
-echo "8 - Exit                     ="
+echo "7 - Exit                     ="
 echo "=============================="
 echo -n "Enter your choice :"
 read choice
@@ -45,9 +44,6 @@ sh getNumberofEmp.sh
 ;;
 
 7)
-sh queries.sh
-;;
-8)
 	exit
 ;;
 
