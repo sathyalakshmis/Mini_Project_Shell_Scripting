@@ -27,8 +27,6 @@ then
 	
 	updatedrecord="$no|$name|$add|$age|$gen|$desc|$sal"
 	
-	#updates=$(`cat $dbfile` | sed s/$record/$updatedrecord/g)
-	
 	totalrecords=`cat $dbfile | wc -l`
 	
 	i=1
